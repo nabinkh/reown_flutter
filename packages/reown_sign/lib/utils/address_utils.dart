@@ -6,7 +6,7 @@ class AddressUtils {
   }
 
   static String getDidChainId(String iss) {
-    return iss.split(':')[3];
+    return iss.split(':')[1];
   }
 
   static String getNamespaceDidChainId(String iss) {
